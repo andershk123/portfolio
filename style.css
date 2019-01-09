@@ -23,7 +23,7 @@ html {
 
 }
 
-.bgmønsterforside img {
+.bgmoensterforside img {
     position: absolute;
     top: -7vw;
     opacity: 0.4
@@ -84,7 +84,7 @@ html {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(213, 228, 243);
+    background-color: rgb(213, 228, 243);
     min-width: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.23);
     /*
@@ -96,7 +96,7 @@ html {
 }
 
 .dropdown-content a {
-    font-size: 21.25 px;
+    font-size: 1.5rem;
     float: none;
     color: black;
     padding: 3px 4px;
@@ -108,7 +108,7 @@ html {
 
 .dropdown-content a:hover {
     /*    background-color: #ddd;*/
-    background-color: rgba(67, 91, 115, 0.53);
+    background-color: rgb(67, 91, 115);
 }
 
 .dropdown:hover .dropdown-content {
@@ -243,17 +243,18 @@ html {
 
 /*-------baggrundsmønster-------*/
 
-.bgmønster img {
+.bgmoenster img {
     /*    width: 100%;*/
     /*    background-color: rgba(213, 228, 243, 0.51);*/
     position: relative;
     top: 0vw;
 }
 
-.bgmønster {
+.bgmoenster {
     /*    width: 100%;*/
     /*    background-color: rgba(213, 228, 243, 0.51);*/
-    position: relative top: 0vw;
+    position: relative;
+    top: 0vw;
 }
 
 
@@ -332,7 +333,7 @@ html {
 
 
 /*-------Tema 1,2,3,4 CSS-------*/
-.bgmønstertema img {
+.bgmoenstertema img {
     position: absolute;
     top: -7vw;
 
@@ -345,7 +346,7 @@ html {
     left: 47vw;
     font-family: arial;
     text-align: left;
-    color: rgba(67, 91, 115);
+    color: rgb(67, 91, 115);
 }
 
 .temabeskrivelse_top {
@@ -354,7 +355,7 @@ html {
     left: 11vw;
     font-family: arial;
     text-align: left;
-    color: rgba(67, 91, 115);
+    color: rgb(67, 91, 115);
     font-size: 1.25rem;
     width: 80vw;
 }
@@ -365,7 +366,7 @@ html {
     left: 9vw;
     font-family: arial;
     text-align: left;
-    color: rgba(67, 91, 115);
+    color: rgb(67, 91, 115);
     font-size: 1.25rem;
     width: 80vw;
 }
@@ -383,7 +384,7 @@ html {
     left: 28vw;
     font-family: arial;
     text-align: left;
-    color: rgba(67, 91, 115);
+    color: rgb(67, 91, 115);
     font-size: 1.5rem;
     width: 44vw;
 }
@@ -394,7 +395,7 @@ html {
     left: 42vw;
     font-family: arial;
     text-align: left;
-    color: rgba(67, 91, 115);
+    color: rgb(67, 91, 115);
     font-size: 1.5rem;
 
 }
@@ -438,7 +439,7 @@ html {
     margin: auto;
     font-family: arial;
     text-align: center;
-    color: rgba(67, 91, 115);
+    color: rgb(67, 91, 115);
     width: 50vw;
 }
 
@@ -449,7 +450,7 @@ html {
     margin: auto;
     font-family: arial;
     text-align: left;
-    color: rgba(67, 91, 115);
+    color: rgb(67, 91, 115);
     width: 80vw;
     font-size: 1.5rem;
 }
@@ -460,7 +461,7 @@ html {
     left: 28vw;
     font-family: arial;
     text-align: left;
-    color: rgba(67, 91, 115);
+    color: rgb(67, 91, 115);
     font-size: 1.5rem;
     width: 44vw;
 }
@@ -471,7 +472,7 @@ html {
     left: 42vw;
     font-family: arial;
     text-align: left;
-    color: rgba(67, 91, 115);
+    color: rgb(67, 91, 115);
     font-size: 1.5rem;
 
 }
@@ -727,9 +728,9 @@ html {
 
 /*-------mobile media query-------*/
 @media only screen and (max-width: 400px) {
-    body {
-        /*        background-color: rgba(70, 162, 255, 0.49);*/
-    }
+    /*    body {*/
+    /*        background-color: rgba(70, 162, 255, 0.49);*/
+    /*    }*/
 
     /*-------baggrundsbillede forside mobile-------*/
 
@@ -827,7 +828,7 @@ html {
     }
 
     .dropdown-content a {
-        font-size: 21.25 px;
+        font-size: 0.8rem;
         float: none;
         color: black;
         padding: 3px 4px;
@@ -838,7 +839,7 @@ html {
 
     .dropdown-content a:hover {
         /*    background-color: #ddd;*/
-        background-color: rgba(67, 91, 115, 0.53);
+        background-color: rgb(67, 91, 115);
     }
 
     .dropdown:hover .dropdown-content {
@@ -988,7 +989,7 @@ html {
 
     /*-------baggrundsmønster mobile-------*/
 
-    .bgmønster {
+    .bgmoenster {
         width: 100%;
         /*        background-color: rgba(213, 228, 243, 0.51);*/
     }
@@ -1076,7 +1077,7 @@ html {
 
 
     /*-------Tema 1,2,3,4 CSS mobile-------*/
-    .bgmønstertema img {
+    .bgmoenstertema img {
         position: absolute;
         top: -4vw;
     }
@@ -1088,7 +1089,7 @@ html {
         left: 47vw;
         font-family: arial;
         text-align: left;
-        color: rgba(67, 91, 115);
+        color: rgb(67, 91, 115);
     }
 
     .h1_underline {
@@ -1104,7 +1105,7 @@ html {
         left: 28vw;
         font-family: arial;
         text-align: left;
-        color: rgba(67, 91, 115);
+        color: rgb(67, 91, 115);
         font-size: 1.5rem;
         width: 44vw;
     }
@@ -1115,7 +1116,7 @@ html {
         left: 11vw;
         font-family: arial;
         text-align: left;
-        color: rgba(67, 91, 115);
+        color: rgb(67, 91, 115);
         font-size: 0.9rem;
         width: 80vw;
     }
@@ -1126,7 +1127,7 @@ html {
         left: 9vw;
         font-family: arial;
         text-align: left;
-        color: rgba(67, 91, 115);
+        color: rgb(67, 91, 115);
         font-size: 0.9rem;
         width: 80vw;
     }
@@ -1137,7 +1138,7 @@ html {
         left: 42vw;
         font-family: arial;
         text-align: left;
-        color: rgba(67, 91, 115);
+        color: rgb(67, 91, 115);
         font-size: 1.5rem;
 
     }
@@ -1180,7 +1181,7 @@ html {
         left: 25vw;
         font-family: arial;
         text-align: center;
-        color: rgba(67, 91, 115);
+        color: rgb(67, 91, 115);
         font-size: 1rem;
     }
 
@@ -1191,7 +1192,7 @@ html {
         margin: auto;
         font-family: arial;
         text-align: left;
-        color: rgba(67, 91, 115);
+        color: rgb(67, 91, 115);
         width: 80vw;
         font-size: 1.5rem;
     }
@@ -1202,7 +1203,7 @@ html {
         left: 28vw;
         font-family: arial;
         text-align: left;
-        color: rgba(67, 91, 115);
+        color: rgb(67, 91, 115);
         font-size: 1.5rem;
         width: 44vw;
     }
@@ -1213,7 +1214,7 @@ html {
         left: 28vw;
         font-family: arial;
         text-align: left;
-        color: rgba(67, 91, 115);
+        color: rgb(67, 91, 115);
         font-size: 1rem;
 
     }
@@ -1435,6 +1436,8 @@ html {
 
     }
 
-    /*-------boks 5-------*/
+}
 
-    /*-------boks 6-------*/
+/*-------boks 5-------*/
+
+/*-------boks 6-------*/
